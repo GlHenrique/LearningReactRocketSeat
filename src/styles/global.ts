@@ -16,11 +16,13 @@ body {
 background: blueviolet;
 -webkit-font-smoothing: antialiased !important;
 
+
+}
+
 body, input, button{
 font-size: 14px;
 color: #222;
 font-family: Arial, Helvetica, sans-serif;
 }
-}
 
-`
+`;
