@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, SubmitButton, Container } from './styles';
+import { Form, SubmitButton, Container, List } from './styles';
 import { FaGithubAlt, FaPlus, FaSpinner } from "react-icons/all";
 
 import api from '../../services/api';
@@ -12,6 +12,20 @@ export default class Main extends React.Component {
         repositories: [],
         loading: false
     };
+
+    componentDidMount() {
+        const repositories = localStorage.getItem('repositories');
+        if (repositories) {
+            this.setState({repositories: JSON.parse(repositories)});
+        }
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        const {repositories} = this.state;
+        if (prevState.repositories !== this.state.repositories) {
+            localStorage.setItem('repositories', JSON.stringify(repositories))
+        }
+    }
 
     handleInputChange = (e) => {
         this.setState({newRepo: e.target.value});
@@ -35,7 +49,7 @@ export default class Main extends React.Component {
     };
 
     render() {
-        const {newRepo, loading} = this.state;
+        const {newRepo, loading, repositories} = this.state;
 
         return (
             <Container>
@@ -48,12 +62,20 @@ export default class Main extends React.Component {
                         type="text"
                         onChange={this.handleInputChange}
                         placeholder="Adicionar repositório"/>
-                    <SubmitButton loading={loading}>
+                    <SubmitButton loading={loading ? true : undefined}>
                         {loading ?
                             <FaSpinner color="#FFF" size={14}/> :
                             <FaPlus color="#FFF" size={14}/>}
                     </SubmitButton>
                 </Form>
+                <List>
+                    {repositories.map(repository => (
+                        <li key={repository.name}>
+                            <span>{repository.name}</span>
+                            <a href="#">Detalhes</a>
+                        </li>
+                    ))}
+                </List>
             </Container>
         );
     }
