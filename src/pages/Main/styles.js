@@ -54,6 +54,9 @@ cursor: pointer;
 }
 `;
 
+export const DeleteRepo = styled.div`
+`;
+
 export const Form = styled.form`
 margin-top: 30px;
 display: flex;

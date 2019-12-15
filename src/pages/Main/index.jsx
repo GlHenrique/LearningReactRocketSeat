@@ -2,7 +2,6 @@ import React from 'react';
 import { Form, SubmitButton, List, SearchRepository, MessageError } from './styles';
 import { Container } from '../../components/Container';
 import { FaGithubAlt, FaPlus, FaSpinner } from "react-icons/all";
-import { IoIosClose } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
 
@@ -55,7 +54,6 @@ export default class Main extends React.Component {
             let isDuplicated = false;
             repositories.forEach((repositorie) => {
                 if (repositorie.name === response.data.full_name) {
-                    console.log('temos iguais aqui');
                     isDuplicated = true;
                 }
             });
@@ -75,10 +73,6 @@ export default class Main extends React.Component {
                 duplicated: false
             });
         }
-    };
-
-    deleteRepo = (e) => {
-
     };
 
 
@@ -116,7 +110,6 @@ export default class Main extends React.Component {
                             <span>{repository.name}</span>
                             <div>
                                 <Link to={`/repository/${encodeURIComponent(repository.name)}`}>Detalhes</Link>
-                                <IoIosClose onClick={this.deleteRepo}/>
                             </div>
                         </li>
                     ))}
