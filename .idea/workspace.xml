@@ -2,31 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c7c478-8d56-4d2e-a24c-daffbb8c71f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Container/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Repository/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Repository/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Main/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Main/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Repository/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1Ulig6MQl9fJdwSAgn3prlk35Ss" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FirstChallengeRocketseat" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,12 +115,21 @@
       <workItem from="1576029152341" duration="2517000" />
       <workItem from="1576100666035" duration="10147000" />
       <workItem from="1576187721191" duration="1260000" />
-      <workItem from="1576194795550" duration="2214000" />
+      <workItem from="1576194795550" duration="2245000" />
+      <workItem from="1576291416955" duration="457000" />
+      <workItem from="1576291912139" duration="169000" />
+      <workItem from="1576292112692" duration="209000" />
+      <workItem from="1576292597128" duration="779000" />
+      <workItem from="1576335791491" duration="7750000" />
+      <workItem from="1576353187389" duration="17490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="70" key="#ESLint" timestamp="1575940018609">
@@ -98,26 +144,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="883" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575938367680" />
-    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1576108974097">
+    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1576375123807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576108974097" />
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1576194857329">
+    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576375123807" />
+    <state width="724" height="187" key="GridCell.Tab.0.bottom" timestamp="1576367716999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576194857329" />
-    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1576194857329">
+    <state width="724" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576367716999" />
+    <state width="724" height="187" key="GridCell.Tab.0.center" timestamp="1576367716999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576194857329" />
-    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1576194857329">
+    <state width="724" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576367716999" />
+    <state width="724" height="187" key="GridCell.Tab.0.left" timestamp="1576367716999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576194857329" />
-    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1576194857329">
+    <state width="724" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576367716999" />
+    <state width="724" height="187" key="GridCell.Tab.0.right" timestamp="1576367716999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576194857329" />
+    <state width="724" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576367716999" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1576029137842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -40,20 +40,24 @@ border-top: 1px solid #eee;
  text-decoration: none;
  }
 }
+
+div {
+display: flex;
+align-items: center;
+svg {
+color: red;
+font-size: 4vh;
+&:hover {
+cursor: pointer;
+}
+}
+}
 `;
 
-export const Form = styled.form
-    `
+export const Form = styled.form`
 margin-top: 30px;
 display: flex;
 flex-direction: row;
-input {
-flex: 1;
-border: 1px solid #eee;
-padding: 10px 15px;
-border-radius: 4px;
-font-size: 16px;
-}
 `;
 
 const rotate = keyframes`
@@ -63,6 +67,38 @@ transform: rotate(0deg);
 to {
 transform: rotate(360deg);
 }
+
+`;
+
+export const SearchRepository = styled.div.attrs(props => ({
+    error: props.error,
+    duplicated: props.duplicated
+}))`
+width: 100%;
+input {
+flex: 1;
+border: 1px solid #eee;
+padding: 10px 15px;
+border-radius: 4px;
+font-size: 16px;
+width: 100%;
+}
+${props => props.error && css`
+input {
+border-color: red;
+}
+`}
+${props => props.duplicated && css`
+MessageError {
+color: red;
+}
+`}
+`
+
+export const MessageError = styled.div`
+color: red;
+font-size: 15px;
+margin-top: 5px;
 `;
 
 export const SubmitButton = styled.button.attrs(props => ({
